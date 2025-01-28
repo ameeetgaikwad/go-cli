@@ -17,7 +17,8 @@ func main() {
 			&cli.StringFlag{
 				Name:        "lang",
 				Value:       "english",
-				Usage:       "language for the greeting",
+				Usage:       "language for the greeting `spanish`",
+				Aliases:     []string{"l"},
 				Destination: &language,
 			},
 		},
